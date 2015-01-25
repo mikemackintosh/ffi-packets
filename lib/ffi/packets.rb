@@ -1,5 +1,7 @@
 
 begin ; require 'rubygems'; rescue LoadError; end
+require 'ipaddress'
+
 require 'ffi'
 require 'ffi/dry'
 
