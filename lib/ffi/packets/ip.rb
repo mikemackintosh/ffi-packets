@@ -77,27 +77,25 @@ module FFI::Packets
       # Sets source IP address in the header from an IPv4 address string or 
       # 32-bit number.
       def src=(val)
-        val = IPAddress val
-        self[:src] = val
+        self[:src] = IPAddress val
       end
 
       # Returns the source IP address as an IPv4 address string as an IPv4 
       # address string.
       def src
-        self[:src].address
+        self[:src]
       end
 
       # Sets destination IP address in the header from an IPv4 address string 
       # or 32-bit number.
       def dst=(val)
-        val = IPAddress val
-        self[:dst] = val
+        self[:dst] = IPAddress val
       end
 
       # Returns the destination IP address from the header as an IPv4 address 
       # string.
       def dst
-        self[:dst].address
+        self[:dst]
       end
 
     end # class Hdr
