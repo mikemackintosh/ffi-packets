@@ -6,12 +6,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ffi-packets"
-    gem.summary = %Q{A collection of common network packets structures} 
-    gem.description = %Q{A collection of common network packets structures in FFI::Struct form for use with bindings to raw network libraries such as libdnet, libnet, or libpcap.}
-    gem.email = "emonti@matasano.com"
-    gem.homepage = "http://github.com/emonti/ffi-packets"
-    gem.authors = ["Eric Monti"]
+    gem.summary = "A collection of common network packets structures"
+    gem.description = "A collection of common network packets structures in FFI::Struct form for use with bindings to raw network libraries such as libdnet, libnet, or libpcap. Forked from https://github.com/emonti/ffi-packets."
+    gem.email = "m@kn0x.net"
+    gem.homepage = "http://github.com/mikemackintosh/ffi-packets"
+    gem.authors = ["Mike Mackintosh"]
     gem.add_dependency "ffi"
+    gem.add_dependency "ipaddress"
     gem.add_dependency "ffi_dry"
     gem.add_development_dependency "rspec"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
