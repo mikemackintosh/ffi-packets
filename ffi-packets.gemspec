@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mike Mackintosh"]
+  s.authors = ["Mike Mackintosh", "Eric Monti"]
   s.date = "2015-01-24"
   s.description = "A collection of common network packets structures in FFI::Struct form for use with bindings to raw network libraries such as libdnet, libnet, or libpcap."
   s.email = "m@splug.io"
